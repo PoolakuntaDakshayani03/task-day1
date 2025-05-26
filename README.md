@@ -33,24 +33,25 @@ This is the primary file containing the structure of the webpage.
     </ul>
   </nav>
 </header>
+```
 
 Displays the logo and the name InternLaunch
 
 Includes a navigation bar with 4 links: Home, Internships, Companies, Contact
 
-
+```html
 <section class="hero">
   <h1>Intern Today. Lead Tomorrow.</h1>
   <p>Your gateway to real-world experience and career growth.</p>
   <a href="#" class="cta-button">Explore Internships</a>
 </section>
-
+```
 Main headline and slogan
 
 Motivational text for students
 
 A Call-To-Action button prompting users to explore internships
-
+```html
 <footer>
   <p>Follow us on</p>
   <div class="social-links">
@@ -60,16 +61,16 @@ A Call-To-Action button prompting users to explore internships
   </div>
   <p>&copy; 2025 InternLaunch. All rights reserved.</p>
 </footer>
+```
 
 Social media links
 
 Copyright notice
 
 
-
 style.css - Custom Styling
 This file contains all the visual styling for the website.
-
+```css
 * {
   margin: 0;
   padding: 0;
@@ -79,13 +80,14 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(to right, #e0f7fa, #e1bee7);
 }
-
+```
 Resets default margins/padding
 
 Applies a gradient background
 
 Sets a clean, readable font family
 
+```css
 header {
   display: flex;
   justify-content: space-between;
@@ -107,14 +109,14 @@ nav ul li a {
   text-decoration: none;
   font-weight: bold;
 }
-
+```
 Uses Flexbox for layout
 
 Stylish dark purple header
 
 Interactive hover effects for links
 
-
+```css
 .hero {
   text-align: center;
   background-color: #fff8e1;
@@ -128,13 +130,14 @@ Interactive hover effects for links
   border-radius: 25px;
   font-weight: bold;
 }
+```
 
 Light yellow background
 
 Large fonts and bold colors for engagement
 
 Button stands out with rounded edges and hover effect
-
+```css
 @media (max-width: 600px) {
   header {
     flex-direction: column;
@@ -144,7 +147,7 @@ Button stands out with rounded edges and hover effect
     flex-direction: column;
   }
 }
-
+```
 Ensures mobile-friendly layout
 
 Header and navigation collapse into a column on small screens
@@ -166,5 +169,5 @@ Include animations using JavaScript
 🙋 Author
 Name: Poolakunta Dakshayani
 
-GitHub: 
+GitHub: poolakuntaDakshayani03
 
